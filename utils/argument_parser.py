@@ -9,7 +9,7 @@ def get_input_arguments():
     """
     # Parent parser
     parser = argparse.ArgumentParser(description='RiskLoc')
-    subparsers = parser.add_subparsers(help='algorithm specific help', dest='algorithm', required=True)
+    subparsers = parser.add_subparsers(help='algorithm specific help', dest='algorithm')
     common_arguments = ['algorithm', 'data_root', 'run_path', 'derived', 'n_threads', 'output_suffix', 'debug']
 
     # Riskloc algorithm specific parameters
