@@ -1,0 +1,2 @@
+Dataset,Folder,TP,FP,FN,Time,F1-score
+encrypted_B3,B_cuboid_layer_2_n_ele_3,290,11,10,219.38564491271973,0.9650582362728786
